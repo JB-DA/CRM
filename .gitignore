@@ -1,4 +1,5 @@
 
-*venv*
 *git*
 *pycache*
+*tests*
+*venv*

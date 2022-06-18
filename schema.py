@@ -1,11 +1,13 @@
 
 """
 Use this file as hack to get around SQLite only accepting one command at a time.
+Call the functions in this file from another, and the return will get inserted into a database.
 
-- Create an appropriately named function
-- Create SQL as normal
-- Paste SQL 1 per function in between multi line comments
-- Add function to import function in init_db.py and join to remove tuple
+- Create SQL tables as normal
+- Create an appropriately named function in this file
+- Paste one (1) SQL table per function in between multi line comments
+- Return SQL table definition as tuple
+- Add function to import function inside init_db.py and join to remove tuple
 
 return: SQL create command string as a tuple
 
